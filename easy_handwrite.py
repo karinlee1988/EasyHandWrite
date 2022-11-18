@@ -46,7 +46,7 @@ class EasyHandWrite(object):
         # print(text)
         template = Template(
             background=Image.new(mode="1", size=(1750, 2479), color=1),  # 自定义背景图片
-            font=ImageFont.truetype("fonts\\加林手写.ttf",size=85),  # 字体选择手写体
+            font=ImageFont.truetype("fonts\\李国夫手写体.ttf",size=85),  # 字体选择手写体
             line_spacing=110,
             # fill=(0, 0, 0),  # 字体颜色，括号内为RGB的值
             left_margin=180,
